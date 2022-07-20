@@ -1,12 +1,11 @@
 # Atmega328-Flight-Controller
 A  Flight Controller board for a quadcopter based on YMFC Joop Brokking's code.
 
-<h1 align="center"><img src="Image/3D rendering/Board Animated GIF.gif" alt="Board Animated GIF" style="width:50%"/></h1>
+<h1 align="center"><img src="Image/Board Animated GIF.gif" alt="Board Animated GIF" style="width:50%"/></h1>
 
-This is the read me file of the Atmega328-Flight Controller project , which is my contrubution to the OPEN SOURCE community .The board was developed by LAB619 Engineering & Consulting Services which is a tech company based in Tunisia that is specialized in custom machine fabrication and embedded solution developement, the company is also specialized in developing IoT solution (LoRa, GPRS and WiFi),PCB and mechanical design .
-You can check the website for further information: [LAB619 Engineering & Consulting Services](https://lab619.tn)
+This is the readme file of the Atmega328-Flight Controller project, which is my contribution to the OPEN SOURCE community. The board was developed by LAB619 Engineering & Consulting Services which is a tech company based in Tunisia that is specialized in custom machine fabrication and embedded solution development, the company is also specialized in developing IoT solutions (LoRa, GPRS, and WiFi), PCB and mechanical design. You can check the website for further information: [LAB619 Engineering & Consulting Services](https://lab619.tn)
 
-This board is an Atmega328 MCU based flight controller for quadcopters that is easy to build and fun to fly.The board is compatible with Joop brokking YMFC-AL (Your Multi-copter Flight Controller -Auto Leveling). Auto leveling means that, when you release the sticks the quadcopter levels itself.
+This board is an Atmega328 MCU-based flight controller for quadcopters that is easy to build and fun to fly. The board is compatible with Joop BROKKING YMFC-AL (Your Multi-copter Flight Controller -Auto Leveling). Auto leveling means that when you release the sticks the quadcopter levels itself.
 
 ## Broadly, this repository consists of:
 
@@ -33,14 +32,14 @@ This board is an Atmega328 MCU based flight controller for quadcopters that is e
 ---
 ## Board Specifications :
 
-The board currently include :
+The board currently includes:
 
-- MCU : Atmega328 with an I2C, UART and an SPI interfaces.
-- IMU : MPU6050 which is a 3-axis gyroscope and a 3-axis accelerometer on the same silicon die with an I2C interface and an interrupt pin.
+- MCU: Atmega328 with an I2C, UART, and SPI interfaces.
+- IMU: MPU6050 which is a 3-axis gyroscope and a 3-axis accelerometer on the same silicon die with an I2C interface and an interrupt pin.
 - 4 PWM outputs to control the motors.
 - 4 Timer input channels for the Inputs.
-- Batterie voltage measurment system (voltage devider and zener diode for protection).
-- FTDI and ICSP interfaces for programming & debuging.
+- Batterie voltage measurement system (voltage divider and Zener diode for protection).
+- FTDI and ICSP interfaces for programming & debugging.
 - LEDs for signaling.
 
 
