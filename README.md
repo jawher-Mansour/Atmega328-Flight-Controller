@@ -1,7 +1,7 @@
 # Atmega328-Flight-Controller
 A  Flight Controller board for a quadcopter based on YMFC Joop Brokking's code.
 
-<h1 align="center"><img src="Image/Board Animated GIF.gif" alt="Board Animated GIF" style="width:50%"/></h1>
+<h1 align="center"><img src="Image/Rendered GIF.gif" alt="Board Animated GIF" style="width:50%"/></h1>
 
 This is the readme file of the Atmega328-Flight Controller project, which is my contribution to the OPEN SOURCE community. The board was developed by LAB619 Engineering & Consulting Services which is a tech company based in Tunisia that is specialized in custom machine fabrication and embedded solution development, the company is also specialized in developing IoT solutions (LoRa, GPRS, and WiFi), PCB and mechanical design. You can check the website for further information: [LAB619 Engineering & Consulting Services](https://lab619.tn)
 
@@ -19,8 +19,7 @@ This board is an Atmega328 MCU-based flight controller for quadcopters that is e
 📦Atmega328-Flight-Controller
  ┣ 📂Fabrication
  ┃ ┣ 📂Assembly
- ┃ ┣ 📂Gerber
- ┃ ┣ 📂Interactive Bill of Materials
+ ┃ ┗ 📂Gerber
  ┣ 📂Image
  ┣ 📂Altium Files
  ┣ 📂Software
@@ -46,7 +45,7 @@ The board currently includes:
 <table>
   <tr>
     <td> 
-    <img src="Image/3D rendering/PCB Top view.jpg.jpg"
+    <img src="Image/Top.jpg"
      alt="PCB Rendred Top View"
      style="display: block; 
      margin-left: auto; 
@@ -54,7 +53,7 @@ The board currently includes:
      width: 50%;"/> 
   </td>
   <td>   
-   <img src="Image/3D rendering/PCB Bottom view.jpg" 
+   <img src="Image/Bottom.jpg" 
    alt="PCB Rendred Bottom View"
    style="display: block;
    margin-left: auto;
@@ -74,28 +73,28 @@ The board currently includes:
 
 ## Getting Started:
 
-In order to program the board, it is necessary to use an **AVR ICSP** Programmer . 
+In order to program the board, it is necessary to use an **AVR ICSP** Programmer. 
 
 If you don't have an AVR ICSP you can use any Arduino board as a programmer as shown in this [link](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP)
 
 ---
 ### Fabrication
 
-This board can be manufactured and assembled by JLCPCB. Check fabrication folder for files related to manufacturing the board
+This board can be manufactured and assembled by JLCPCB. Check the fabrication folder for files related to manufacturing the board
 
 ---
-### How to setup and program the baord 
+### How to setup and program the board 
 
 Use an AVR ICSP programmer or any Arduino board as a programmer to connect to **Atmega328-Flight-Controller**
 
 You need to connect AVR ICSP's 5V,MOSI,MISO,SCK,RESET,GND to Flight Controller board's 5V,MOSI,MISO,SCK,RESET,GND.
 
-Further details can be found on Joop BroKking web page [link](http://www.brokking.net/ymfc-al_main.html) 
+Further details can be found on Joop BroKking web page [link](http://www.brokking.net/ymfc-al_main.html) or you can follow this amazing video by Joop [Youtube Video](https://www.youtube.com/watch?v=DYpHB-LfloI&t=1s)
 
 <table>
   <tr>
     <td> 
-    <img src="Image/SWD.9.jpg" 
+    <img src="Image/ICSP.jpg" 
    alt=""
      style="display: block; 
      margin-left: auto; 
@@ -103,7 +102,7 @@ Further details can be found on Joop BroKking web page [link](http://www.brokkin
      width: 200px;"/> 
   </td>
   <td>   
-   <img src="Image/st-link-v2.jpg" 
+   <img src="Image/AVRISP.jpg" 
    alt=""
      style="display: center; 
      margin-left: auto; 
@@ -140,4 +139,4 @@ Further details can be found on Joop BroKking web page [link](http://www.brokkin
 
 ---
 
-**Note:** ***This repository is reserveed for hte hardware part of this project , as well as the emedded software of the project.***
+**Note:** ***This repository is reserved for the hardware part of this project, as well as the embedded software of the project.***
