@@ -80,7 +80,7 @@ If you don't have an AVR ICSP you can use any Arduino board as a programmer as s
 ---
 ### Fabrication
 
-This board can be manufactured and assembled by JLCPCB. Check the fabrication folder for files related to manufacturing the board
+This board can be manufactured and assembled by [JLCPCB](https://jlcpcb.com/). Check the fabrication folder for files related to manufacturing the board
 
 ---
 ### How to setup and program the board 
